@@ -26,9 +26,9 @@
       </div>
       <script>
          document.getElementById("focu").focus();
-         setTimeout(function(){
+         window.addEventListener("focus", function(event) { 
             document.getElementById("focu").focus();
-         },200);
+         }, false);
       </script>
    </body>
 </html>
