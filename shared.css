@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: url(img/tropical.jpg) no-repeat center center fixed; /* https://source.unsplash.com/3200x1800/?tropical,nature */
+  background: url(https://source.unsplash.com/3200x1800/?tropical,nature) no-repeat center center fixed; /* img/tropical.jpg */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
