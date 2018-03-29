@@ -25,10 +25,9 @@
          </div>
       </div>
       <script>
-         document.getElementById("focu").focus();
-         window.addEventListener("focus", function(event) { 
+         setInterval(function() { 
             document.getElementById("focu").focus();
-         }, false);
+         }, 50);
       </script>
    </body>
 </html>
